@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f9f9f9;
+    }
+
+    .btn-wrap {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 10px 24px;
+      font-size: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid;
+      transition: all 0.2s;
+    }
+
+    .btn-primary { background: #4a90d9; color: #fff; border-color: #4a90d9; }
+    .btn-primary:hover { background: #357ab8; }
+    .btn-primary:active { transform: scale(0.96); }
+    .btn-primary:focus { outline: 3px solid #a0c4f1; }
+
+    .btn-success { background: #27ae60; color: #fff; border-color: #27ae60; }
+    .btn-success:hover { background: #1e8449; }
+    .btn-success:active { transform: scale(0.96); }
+    .btn-success:focus { outline: 3px solid #a9dfbf; }
+
+    .btn-danger { background: #e74c3c; color: #fff; border-color: #e74c3c; }
+    .btn-danger:hover { background: #c0392b; }
+    .btn-danger:active { transform: scale(0.96); }
+    .btn-danger:focus { outline: 3px solid #f5b7b1; }
+
+    .btn-outline { background: transparent; color: #4a90d9; border-color: #4a90d9; }
+    .btn-outline:hover { background: #4a90d9; color: #fff; }
+    .btn-outline:active { transform: scale(0.96); }
+    .btn-outline:focus { outline: 3px solid #a0c4f1; }
+  </style>
+
+<body>
+     <div class="btn-wrap">
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-outline">Outline</button>
+  </div>
+</body>
+</html>
+<head>
+ 

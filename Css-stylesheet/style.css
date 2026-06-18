@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 { font-size: 2rem; margin-bottom: 10px; }
+h2 { font-size: 1.6rem; margin-bottom: 8px; }
+h3 { font-size: 1.3rem; margin-bottom: 6px; }
+
+/* Text Utilities */
+.text-center  { text-align: center; }
+.text-left    { text-align: left; }
+.text-right   { text-align: right; }
+.text-muted   { color: #888; }
+.text-bold    { font-weight: bold; }
+
+/* Colors */
+.text-primary { color: #4a90d9; }
+.text-success { color: #27ae60; }
+.text-danger  { color: #e74c3c; }
+.text-warning { color: #f39c12; }
+
+/* Backgrounds */
+.bg-primary { background-color: #4a90d9; color: #fff; }
+.bg-success { background-color: #27ae60; color: #fff; }
+.bg-danger  { background-color: #e74c3c; color: #fff; }
+.bg-light   { background-color: #f4f4f4; }
+.bg-dark    { background-color: #333; color: #fff; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.btn:hover   { opacity: 0.85; }
+.btn:active  { transform: scale(0.97); }
+
+.btn-primary { background: #4a90d9; color: #fff; }
+.btn-success { background: #27ae60; color: #fff; }
+.btn-danger  { background: #e74c3c; color: #fff; }
+
+/* Cards */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+/* Flexbox Utilities */
+.flex         { display: flex; }
+.flex-center  { display: flex; align-items: center; justify-content: center; }
+.flex-between { display: flex; align-items: center; justify-content: space-between; }
+.gap-sm       { gap: 8px; }
+.gap-md       { gap: 16px; }
+.gap-lg       { gap: 24px; }
+
+/* Spacing */
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+.p-1  { padding: 8px; }
+.p-2  { padding: 16px; }
+.p-3  { padding: 24px; }
+
+/* Borders */
+.border       { border: 1px solid #ddd; }
+.rounded      { border-radius: 8px; }
+.rounded-full { border-radius: 50%; }
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Links */
+a { color: #4a90d9; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Lists */
+ul, ol { padding-left: 20px; }
+
+/* Form Inputs */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4a90d9;
+}

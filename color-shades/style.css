@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Row 1 */
+tr:nth-child(1) td:nth-child(1) { background-color: #001f3f; }
+tr:nth-child(1) td:nth-child(2) { background-color: #003366; }
+tr:nth-child(1) td:nth-child(3) { background-color: #004c99; }
+tr:nth-child(1) td:nth-child(4) { background-color: #0066cc; }
+tr:nth-child(1) td:nth-child(5) { background-color: #3399ff; }
+
+/* Row 2 */
+tr:nth-child(2) td:nth-child(1) { background-color: #004080; }
+tr:nth-child(2) td:nth-child(2) { background-color: #336699; }
+tr:nth-child(2) td:nth-child(3) { background-color: #5c85d6; }
+tr:nth-child(2) td:nth-child(4) { background-color: #85a3e0; }
+tr:nth-child(2) td:nth-child(5) { background-color: #adc2eb; }
+
+/* Row 3 */
+tr:nth-child(3) td:nth-child(1) { background-color: #cce0ff; }
+tr:nth-child(3) td:nth-child(2) { background-color: #b3d1ff; }
+tr:nth-child(3) td:nth-child(3) { background-color: #99c2ff; }
+tr:nth-child(3) td:nth-child(4) { background-color: #80b3ff; }
+tr:nth-child(3) td:nth-child(5) { background-color: #66a3ff; }

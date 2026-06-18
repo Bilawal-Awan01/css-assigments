@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f9f9f9;
+    }
+
+    .parent-circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: #4a90d9;
+      position: relative;
+    }
+
+    .child-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #f5a623;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="parent-circle">
+    <div class="child-circle"></div>
+  </div>
+</body>
+</html>

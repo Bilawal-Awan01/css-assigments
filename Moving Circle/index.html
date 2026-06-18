@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .screen {
+      width: 80%;
+      height: 200px;
+      background: #222;
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #00cfff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      box-shadow: 0 0 12px #00cfff;
+      animation: move 3s linear infinite alternate;
+    }
+
+    @keyframes move {
+      from { left: 0px; }
+      to   { left: calc(100% - 60px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen">
+    <div class="circle"></div>
+  </div>
+</body>
+</html>
